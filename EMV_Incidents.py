@@ -4,6 +4,11 @@ from copy import deepcopy
 from arcgis.gis import GIS
 from arcgis import geometry
 
+# ToDo
+# Remove need for Pandas (easier to deploy on Lambda)
+# Better Error handling
+# Get it to send alerts via AWS when exceptions
+# Enrich incidents with other info
             
 # Globals
 inc_url = 'https://data.emergency.vic.gov.au/Show?pageId=getIncidentJSON'
