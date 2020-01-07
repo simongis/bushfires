@@ -6,6 +6,7 @@ from arcgis import geometry
 
 # ToDo
 # Remove need for Pandas (easier to deploy on Lambda)
+# Use Append over Edits, make use of S3 for temporary CSV
 # Better Error handling
 # Get it to send alerts via AWS when exceptions
 # Enrich incidents with other info
